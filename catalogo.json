@@ -1,0 +1,78 @@
+{
+  "llama_version": "b11617",
+  "modelo_revision": "0912d33141f77e10705345a6732bfd83f0252fdc",
+  "modelos": [
+    {
+      "cuantizacion": "Q4_K_M",
+      "nombre": "LFM2.5-24B-A2B-Q4_K_M.gguf",
+      "bytes": 14526258464,
+      "sha256": "d3334405b96228eb9908cdebb5c6194908f2da64282bda852afc3a3910c64e7d",
+      "url": "https://huggingface.co/LiquidAI/LFM2.5-24B-A2B-GGUF/resolve/0912d33141f77e10705345a6732bfd83f0252fdc/LFM2.5-24B-A2B-Q4_K_M.gguf"
+    },
+    {
+      "cuantizacion": "Q5_K_M",
+      "nombre": "LFM2.5-24B-A2B-Q5_K_M.gguf",
+      "bytes": 17029602592,
+      "sha256": "7f3029ea2a8e40175496e5022cf7defdcc587df9703d3ed613e64daa51427ecb",
+      "url": "https://huggingface.co/LiquidAI/LFM2.5-24B-A2B-GGUF/resolve/0912d33141f77e10705345a6732bfd83f0252fdc/LFM2.5-24B-A2B-Q5_K_M.gguf"
+    },
+    {
+      "cuantizacion": "Q6_K",
+      "nombre": "LFM2.5-24B-A2B-Q6_K.gguf",
+      "bytes": 19689405728,
+      "sha256": "4c5f34cb94d4a29f0360d04eaa274bb1361ceae163f40f6361cb75d1bee139c2",
+      "url": "https://huggingface.co/LiquidAI/LFM2.5-24B-A2B-GGUF/resolve/0912d33141f77e10705345a6732bfd83f0252fdc/LFM2.5-24B-A2B-Q6_K.gguf"
+    },
+    {
+      "cuantizacion": "Q8_0",
+      "nombre": "LFM2.5-24B-A2B-Q8_0.gguf",
+      "bytes": 25493732640,
+      "sha256": "f09bf094a8a138c5b645598ca1abb6696a0fde26662d7af649b0713fdef330b6",
+      "url": "https://huggingface.co/LiquidAI/LFM2.5-24B-A2B-GGUF/resolve/0912d33141f77e10705345a6732bfd83f0252fdc/LFM2.5-24B-A2B-Q8_0.gguf"
+    }
+  ],
+  "paquetes": [
+    {
+      "backend": "cpu",
+      "nombre": "llama-b11617-bin-win-cpu-x64.zip",
+      "bytes": 19553620,
+      "sha256": "1bad07f7993889a1f7431ad647904294f56919bf0bc84f4021327db1641a411c",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/download/b11617/llama-b11617-bin-win-cpu-x64.zip"
+    },
+    {
+      "backend": "cuda12",
+      "nombre": "llama-b11617-bin-win-cuda-12.4-x64.zip",
+      "bytes": 265266505,
+      "sha256": "46d94e8676933a0eb0ad8c80ba1935001c193ccd745ae8372a90678675366dfb",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/download/b11617/llama-b11617-bin-win-cuda-12.4-x64.zip"
+    },
+    {
+      "backend": "cuda12",
+      "nombre": "cudart-llama-bin-win-cuda-12.4-x64.zip",
+      "bytes": 391443627,
+      "sha256": "8c79a9b226de4b3cacfd1f83d24f962d0773be79f1e7b75c6af4ded7e32ae1d6",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/download/b11617/cudart-llama-bin-win-cuda-12.4-x64.zip"
+    },
+    {
+      "backend": "cuda13",
+      "nombre": "llama-b11617-bin-win-cuda-13.4-x64.zip",
+      "bytes": 153522270,
+      "sha256": "199352e34a774d698ae1735d80c64b84fa08047c33f74f14244dc4d72b58821e",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/download/b11617/llama-b11617-bin-win-cuda-13.4-x64.zip"
+    },
+    {
+      "backend": "cuda13",
+      "nombre": "cudart-llama-bin-win-cuda-13.4-x64.zip",
+      "bytes": 423535356,
+      "sha256": "738f8c251ac22b70c3ae6f83a10cf222725df0395246a2cf58f32bdb85fbe668",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/download/b11617/cudart-llama-bin-win-cuda-13.4-x64.zip"
+    },
+    {
+      "backend": "vulkan",
+      "nombre": "llama-b11617-bin-win-vulkan-x64.zip",
+      "bytes": 32183619,
+      "sha256": "540649b52663e8c9c94613288824dc4c96dfb7b226d2ec2507dfd1279dc4c60c",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/download/b11617/llama-b11617-bin-win-vulkan-x64.zip"
+    }
+  ]
+}
